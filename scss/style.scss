@@ -1,0 +1,189 @@
+$orange: #DB8814;
+$black: #222222;
+$white: #ffffff;
+$white_e: #eeeeee;
+$mainFont: Roboto;
+$mainTitleFont: Lato;
+$titleFont: Cinzel;
+
+
+h2, h3{
+    color: $black;
+    text-shadow: 0 0 4px transparentize($color: $black, $amount: .6);
+}
+h2{
+    font-family: $mainTitleFont;
+    font-weight: bold;
+    font-size: 2.5em;
+    @media (min-width: 768px) {
+        font-size: 2.75em;
+    }
+    @media (min-width: 1368px) {
+        font-size: 3em;
+    }
+}
+h3{
+    font-family: $titleFont;
+
+    font-size: 2em;
+    @media (min-width: 768px) {
+        font-size: 2.25em;
+    }
+}
+.main-button{
+    background-color: $orange;
+    color: $white_e;
+}
+.back-to-top{
+    position: fixed;
+    bottom: 1em;
+    left: .5em;
+}
+body{
+    font-family: $mainFont;
+    font-size: 13px;
+    background-color: $white;
+    padding-top: 60px;
+    @media (min-width: 768px) {
+        font-size: 16px;
+    }
+}
+
+
+.header{
+    background-color: $black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9000;
+    .nav-link{
+        cursor: pointer;
+        color: transparentize($color: $white_e, $amount: .1) !important;
+        &:hover{
+            background-color: transparentize($white_e, .9);
+            color: $black;
+            border-radius: 4px;
+        }
+    }
+    form{
+        .btn{
+            color: transparentize($color: $white_e, $amount: .1) !important;
+        }
+    }
+}
+
+footer{
+    background-color: $black;
+    color: $white_e !important;
+    text-align: center;
+    font-size: 1.15em;
+    @media (min-width:768px) {
+        text-align: right;
+    }
+    a{
+        color: $white_e;
+    }
+    .powered{
+        font-size: .7em;
+    }
+}
+
+#hero{
+    background-color: $black;
+    padding-bottom: 60px;
+    .image-container{
+        width: 100%;
+        max-height: 65vh;
+        overflow: hidden;
+        picture{
+            display: block;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            } 
+        }
+    }
+}
+
+#certificates{
+    li{
+        font-size: 1.35em;
+        span{
+            color: $orange;
+        }
+    }
+}
+
+#services{
+    .description-bold{
+        color: $black;
+        background-color: transparentize($color: $orange, $amount: .85);
+    }
+    .service{
+        background-color: $orange;
+        color: $white_e;
+        &:nth-child(2n+1){
+            background-color: #d9d9d9;
+            color: $black;
+        }
+        .description{
+            .service-title{
+                font-weight: bold;
+                font-size: 1.5em;
+                word-break: normal;
+                line-height: 1.25;
+            }
+        }
+        .description-items{
+            ul{
+                font-size: 1.35em;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+#portfolio{
+    .project{
+        margin-bottom: .75em;
+        position: relative;
+        .before{
+            position: absolute;
+            color: $white_e;
+            padding: .25em .5em;          
+            width: 100%;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        &:nth-child(even){
+            .before{
+                text-align: right;
+                background: -moz-linear-gradient(right,  rgba(219,136,20,1) 0%, rgba(219,136,20,0.9) 12%, rgba(219,136,20,0) 40%, rgba(219,136,20,0) 100%);
+                background: -webkit-linear-gradient(right,  rgba(219,136,20,1) 0%,rgba(219,136,20,0.9) 12%,rgba(219,136,20,0) 40%,rgba(219,136,20,0) 100%);
+                background: linear-gradient(to left,  rgba(219,136,20,1) 0%,rgba(219,136,20,0.9) 12%,rgba(219,136,20,0) 40%,rgba(219,136,20,0) 100%);
+            }
+        }
+        &:nth-child(odd){
+            .before{
+                background: -moz-linear-gradient(left,  rgba(219,136,20,1) 0%, rgba(219,136,20,0.9) 12%, rgba(219,136,20,0) 40%, rgba(219,136,20,0) 100%);
+                background: -webkit-linear-gradient(left,  rgba(219,136,20,1) 0%,rgba(219,136,20,0.9) 12%,rgba(219,136,20,0) 40%,rgba(219,136,20,0) 100%);
+                background: linear-gradient(to right,  rgba(219,136,20,1) 0%,rgba(219,136,20,0.9) 12%,rgba(219,136,20,0) 40%,rgba(219,136,20,0) 100%);
+            }
+        }
+    }
+}
+
+#contact{
+    .estimation-message{
+        color: $black;
+        font-size: 1.35em;
+    }
+    .has-error{
+        box-shadow: 0 0 2px 1px red;
+    }
+}
