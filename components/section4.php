@@ -69,6 +69,23 @@
             </div>
         </div>
 
+        <div class="row justify-content-center">
+            <div class="col col-5 col-sm-6 px-0 project">
+            <div class="before"><?php echo $messages['before'] ?></div>
+                <picture>
+                    <source media="(min-width:600px)" srcset="assets/portfolio/p5/before1.png">
+                    <img src="assets/portfolio/p5/before.jpg" alt="metaform construction inc">
+                </picture>
+            </div>
+            <div class="col col-5 col-sm-6 px-0 project">
+            <div class="before"><?php echo $messages['after'] ?></div>
+                <picture>
+                    <source media="(min-width:600px)" srcset="assets/portfolio/p5/after1.jpg">
+                    <img src="assets/portfolio/p5/after.jpg" alt="metaform construction inc">
+                </picture>
+            </div>
+        </div>
+
     </div>
 </section>
 

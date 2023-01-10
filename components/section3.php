@@ -1,9 +1,6 @@
 <section id="services">
     <div class="container py-5">
-        <div class="row justify-content-center my-3">
-            <div class="col col-12 col-md-9 description-bold p-4">
-                <h4><?php echo $messages['service_description_bold'] ?></h4>
-            </div>
+        <div class="row justify-content-center">
         </div>
         <h2 class="text-center my-5"><?php echo $messages['services_main_title'] ?></h2>
         <div class="row justify-content-center service">

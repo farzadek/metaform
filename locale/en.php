@@ -2,10 +2,10 @@
 $messages = array(
     "langSign"=>"FR",
     "hero_slogan"=>"Art of build",
-    "hero_description"=>"<h4>Montreal’s full-service, general contracting company recognized as a leader for its custom, high-quality renovation services.</h4>
-                         <p>Serving Montreal clients for more than 5 years, MetaformConstruction has proudly built a reputation for its design sensibility, exceptional craftsmanship, and personalized approach. When you choose MetaformConstruction, you choose a team of highly-skilled renovation professionals who pay careful attention to your needs and preferences.</p>
-                         <p>We’re committed to delivering extraordinary results while respecting deadlines and budgets. We’ll help you complete your renovation project as you envisioned. And if the scope of the project changes or unexpected issues arise along the way, we’re experienced at finding innovative and cost-effective solutions that work for you.</p>
-                         <p>Whether you’re undertaking a commercial or residential initiative, take advantage of our long-standing expertise and comprehensive services to turn your vision into reality.</p>",
+    "hero_description"=>"<h4>Montreal's full-service, general contracting company recognized as a leader for its custom, high-quality renovation services.</h4>
+                         <p>Serving Montreal clients for more than 15 years, MetaformConstruction has proudly built a reputation for its design sensibility, exceptional craftsmanship, and personalized approach. When you choose MetaformConstruction, you choose a team of highly-skilled renovation professionals who pay careful attention to your needs and preferences.</p>
+                         <p>We're committed to delivering extraordinary results while respecting deadlines and budgets. We'll help you complete your renovation project as you envisioned. And if the scope of the project changes or unexpected issues arise along the way, we’re experienced at finding innovative and cost-effective solutions that work for you.</p>
+                         <p>Whether you're undertaking a commercial or residential initiative, take advantage of our long-standing expertise and comprehensive services to turn your vision into reality.</p>",
     "certificates_title"=>"PROFESSIONAL AFFILIATIONS",
 
     "service_description_bold"=>"Not only was the deadline met, but the team that was assigned to the job was the most professional, meticulous, polite, friendly and organized that I have ever dealt with.",
@@ -41,6 +41,8 @@ $messages = array(
     "contact_form_error"=>"Error in information entered in form!",
     "contact_form_send_success"=>"We received your message!",
     "contact_form_send_error"=>"Because of internal problem, we couldn't receive your message. Please call (438) 835-1459",
-    "contact_estimation_message"=>"Free Visit and quote"
+    "contact_estimation_message"=>"Free Visit and quote",
+
+    "footer_business_hours"=>"Business hours: Monday to Friday 8 a.m. to 5 p.m."
 );
 ?>

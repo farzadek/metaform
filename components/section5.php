@@ -3,7 +3,7 @@
         <div class="row justify-content-center estimation-message">
             <div class="col col-11 col-sm-10 col-lg-8">
                 <p class="text-center"><?php echo $messages['contact_estimation_message'] ?></p>
-                <p class="text-center">Tel : <a href="tel:4388351459">(438) 835-1459</a></p>
+                <p class="text-center">Tel : <a href="tel:4388351455">(438) 835-1455</a></p>
             </div>
         </div>
         <h2 class="text-center my-5"><?php echo $messages['contact_main_title'] ?></h2>
