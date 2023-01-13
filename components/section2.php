@@ -1,7 +1,8 @@
 <section id="certificates">
     <div class="container py-5">
-        <h2 class="text-center">MetaForm Construction</h2>
-        <h3 class="text-center mb-4"><?php echo $messages['hero_slogan']?></h3>
+        <h1 class="text-center">MetaForm Construction
+            <span class="text-center mb-4"><?php echo $messages['hero_slogan']?></span>
+        </h1>
         <p><?php echo $messages['hero_description']?></p>
     </div>
     <div class="container py-5">

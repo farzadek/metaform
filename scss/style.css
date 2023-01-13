@@ -1,24 +1,29 @@
-h2, h3 {
+h1, h2, h3 {
   color: #222222;
   text-shadow: 0 0 4px rgba(34, 34, 34, 0.4);
 }
 
-h2 {
+h1, h2 {
   font-family: Cinzel;
   font-weight: bold;
   font-size: 2.5em;
 }
 
 @media (min-width: 768px) {
-  h2 {
+  h1, h2 {
     font-size: 2.75em;
   }
 }
 
 @media (min-width: 1368px) {
-  h2 {
+  h1, h2 {
     font-size: 3em;
   }
+}
+
+h1 span, h2 span {
+  display: block;
+  font-size: 75%;
 }
 
 h3 {
